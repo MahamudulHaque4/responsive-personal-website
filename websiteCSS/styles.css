@@ -17,3 +17,100 @@
   font-variation-settings: "width" 100; 
     
 }
+
+/* Universal Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/* Front-colors */
+.primary-color {
+  color: rgba(60, 60, 60, 1);
+  font-weight: 600;
+}
+
+.black-1-p1{
+  color: rgba(54, 57, 88, 1);
+  font-weight: 600;
+  font-size: 4rem;
+}
+.black-2-p1 {
+  color: rgba(62, 62, 62, 1);
+}
+
+.orange-1-p1{
+  color: rgba(255, 131, 103, 1);
+  font-weight: 600;
+  font-size: 4rem;
+
+}
+
+/* Header Styles */
+.header-link a {
+  text-decoration: none;
+}
+ 
+/* Navigation Bar */
+.navbar{
+  justify-content: space-between;
+  text-align: right;
+  margin-left: 980px;
+  margin-right: 150px;
+  margin-top: 40px;
+  padding: 35px;
+  font-size: 1rem;
+}
+
+/* Main Body Styles */
+/* .part-1 {
+  margin-left: ;
+} */
+
+/* section-1 styles */
+.first-part-scenario {
+  margin-top: 180px;
+  margin-left: 140px;
+  margin-right: 930px;
+}
+
+.first-part-description {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(255, 131, 103, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  height: auto;
+  font-weight: 500;
+}
+
+.primary-btn:hover {
+  background-color: rgba(103, 212, 255, 0.8);
+}
+
+.first-part-image {
+  position: absolute;
+  left: 850px;
+  top: 100px;
+  padding: 20px; /* Optional: adds space around the main image */
+}
+
+.first-part-image img {
+  width: 465px;  
+  height: 610px;
+}
+
+/* section-2 styles */
